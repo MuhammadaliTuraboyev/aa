@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Dars</title>
+</head>
+<body>
+    <header>
+        
+
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
+        <a href="https://flowbite.com" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="./icon/logo.svg" class="h-8" alt="Flowbite Logo" />
+        </a>
+        <div class="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse">
+            <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Login</a>
+            <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Get Started</a>
+            <button data-collapse-toggle="mega-menu" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+        </div>
+        <div id="mega-menu" class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
+            <ul class="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse">
+                <li>
+                    <a href="#" class="block py-2 px-3 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Home</a>
+                </li>
+                <li>
+                    <button id="mega-menu-dropdown-button" data-dropdown-toggle="mega-menu-dropdown" class="flex items-center justify-between w-full py-2 px-3 font-medium text-gray-900 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">
+                        Company <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+  </svg>
+                    </button>
+                    <div id="mega-menu-dropdown" class="absolute z-10 grid hidden w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md dark:border-gray-700 md:grid-cols-3 dark:bg-gray-700">
+                        <div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+                            <ul class="space-y-4" aria-labelledby="mega-menu-dropdown-button">
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500">
+                                        Library
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500">
+                                        Resources
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500">
+                                        Pro Version
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+                            <ul class="space-y-4">
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500">
+                                        Blog
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500">
+                                        Newsletter
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500">
+                                        Playground
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500">
+                                        License
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="p-4">
+                            <ul class="space-y-4">
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500">
+                                        Contact Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500">
+                                        Support Center
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500">
+                                        Terms
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Team</a>
+                </li>
+                <li>
+                    <a href="#" class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    </header>
+    <main>
+        <section class="flex justify-center pb-6 gap-x-28 pt-10">
+            <div>
+                <p class="font-sans pt-16 text-5xl text-black pb-5">The new way to <br>manage external <br></b>relationships</p>
+                <p class="font-sans text-sm text-current pb-5">Create shared spaces with <br>prospects and customers</p>
+                <div>
+                    <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-bold text-white-900 text-white-900 from-purple-600 to-blue-400 ">
+                        <span class="relative px-5 py-2.5 transition-all ease-in bg-blue-900 dark:bg-blue-900 rounded-3xl ">
+                            Get Started
+                        </span>
+                        </button>
+                </div>
+            </div>
+            <div>
+                <ul>
+                    <li><img src="./images/google2.png" alt=""></li>
+                </ul>
+            </div>
+        </section>
+        <section class="text-center">
+            <p class="font-sans  text-3xl text-black pb-5">Transform the customer experience from <br>demo to onboarding and beyond</p>
+            <p class="text-inherit font-sans text-xl pb-12">Personalized spaces that make you look professional.</p>
+        </section>
+        <section class="pb-6">
+            <div class="flex justify-center py-20 gap-24 color-blue-700 h-400 rounded-b-3xl rounded-t-3xl">
+                <div>
+                    <p class="text-4xl pt-5 font-sans text-white pb-5">Clients always know <br>where to go when they <br>need something</p>
+                    <p  class="text-xl font-sans text-white pb-9">One destination that hosts <br>all of your links, pdfs, meeting agendas, <br>deliverables, project timelines,<br>proposals, and more.</p>
+                    <p class="text-xl font-sans text-white pb-3">Embed your favorite software <br>from Figma to Google Slides to <br>Vimeo.</p>
+                    <div>
+                        <ul>
+                            <li><img src="./icon/logo1.svg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        <li><img src="./images/image3.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="pb-6">
+            <div class="flex justify-center gap-x-16     pt-20 pb-12 rounded-b-2xl rounded-t-2xl">
+                <div>
+                    <ul>
+                        <li><img src="images/footer.png" alt=""></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="text-4xl pt-28 font-sans  pb-5">Navigate complex <br>deals and onboard <br>customers</p>
+                    <p class="text-xl text-current ">Stop using that spreadsheet. Instead, <br>build a collaborative mutual action <br>plan with customers - share status, <br>align due dates, assign tasks, leave <br>comments and upload files.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="flex justify-center gap-x-6 ">
+                <div class=" rounded-b-2xl rounded-t-2xl bg-indigo-500 ">
+                    <p class="text-black text-xl px-12 pb-1.5 pt-16">Personalization at scale.</p>
+                    <p class="px-12 text-xl pb-16">Create branded spaces with custom content.</p>
+                    <div>
+                        <ul><li class="px-12 pb-10"><img src="./images/footer1.png" alt=""></li></ul>
+                    </div>
+                </div>
+                <div class="rounded-b-2xl rounded-t-2xl bg-indigo-500 ">
+                    <p class="text-xl text-black px-12 pb-1.5 pt-16">Share feedback & move projects along.</p>
+                    <p class="px-12 text-xl pb-16 ">Customers comment on what you’re working on <br>and share key resources with file uploads.</p>
+                    <div>
+                        <ul><li class="px-12 pb-10"><img src="./images/image2.png" alt=""></li></ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=" ">
+            <div>
+            <p class="text-3xl text-black pt-5 pb-3 flex justify-center">Uplevel how Sales and Customer teams work</p>
+            <p class="text-2xl text-slate-400 pb-5 flex justify-center">Dock helps leadership build a repeatable sales and customer success process.</p>
+            </div>
+        </section>
+        <section class="pb-6">
+            <div class="flex bg-black justify-center gap-x-32 py-20 rounded-b-2xl rounded-t-2xl">
+                <div>
+                    <p class="text-4xl pt-40 font-sans text-white pb-5">Understand what <br>content performs</p>
+                    <p class="text-xl ">Get insight into when clients view <br>the shared space and what they <br>clicked on.</p>
+                </div>
+                <div>
+                    <ul>
+                        <li><img src="./images/image1.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="pb-6">
+            <div class="flex justify-center gap-x-6">
+                <div class="bg-blue-100 rounded-b-2xl rounded-t-2xl  ">
+                    <p class="pt-14 px-12 text-2xl text-black pb-2.5 ">Save Time.</p>
+                    <p class="px-12 text-slate-400 text-xl pb-9">Duplicate work from project to project, so you’re <br>not starting from scratch every time.</p>
+                    <div>
+                        <ul><li class="px-12 pb-12"><img src="./images/image9.png" alt=""></li></ul>
+                    </div>
+                </div>
+                <div class="bg-blue-100  rounded-b-2xl rounded-t-2xl ">
+                    <p class="pt-14 px-12 text-2xl text-black pb-2.5 ">Save Time.</p>
+                    <p class="px-12 text-slate-400 text-xl pb-9">Duplicate work from project to project, so you’re <br>not starting from scratch every time.</p>
+                    <div>
+                        <ul><li class="px-12 pb-12"><img src="./images/image8.png" alt=""></li></ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-20 bg-slate-200 rounded-b-2xl rounded-t-2xl">
+            <div class="flex justify-center gap-10">
+                <div>
+                    <p class="text-3xl text-black ">Discover how Sales <br>and Customer teams <br>use Dock everyday</p>
+                    <p class="text-2xl pt-5">Dock helps companies across the <br>customer lifecycle.</p>
+                </div>
+                <div class="bg-blue-600  rounded-b-2xl rounded-t-2xl">
+                    <div>
+                        <ul><li class="py-9 px-8"><img src="./icon/blue1.svg" alt=""></li></ul>
+                    </div>
+                    <p class="text-white text-sm px-8">Sales</p>
+                    <p class="text-white text-3xl px-8 pb-3">Transform the <br>sales experience</p>
+                    <p class="text-white text-lg px-8 pb-4">Dock makes it easy for prospects <br>to buy and helps sales teams <br>build a repeatable process.</p>
+                    <p class="text-white text-lg px-8 pb-24">Learn more →</p>
+                </div>
+                <div class="bg-blue-600  rounded-b-2xl rounded-t-2xl">
+                    <div>
+                        <ul><li class="py-9 px-8"><img src="./icon/blue1.svg" alt=""></li></ul>
+                    </div>
+                    <p class="text-white text-sm px-8">Customer Success</p>
+                    <p class="text-white text-3xl px-8 pb-3.5">Build strong <br>relationships <br>with customers</p>
+                    <p class="text-white text-lg px-8 pb-4">Dock helps companies onboard <br>customers and manage ongoing <br>relationships.</p>
+                    <p class="text-white text-lg px-8 pt-4 pb-16">Learn more →</p>
+                </div>
+            </div>
+        </section>
+        <section class="pb-6">
+            <p class="flex justify-center text-4xl text-black pt-36">Explore Dock templates</p>
+            <p class="flex justify-center text-xl text-gray-400 pt-4">Explore templates for sales, customer success, and agencies.</p>
+            <p class="flex justify-center text-xl text-gray-400 pb-4">Customize any template and share with clients.</p>
+            <div class="flex justify-center pb-12">
+                <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 ">
+                    <span class="px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-3xl">
+                        Explore templates →
+                    </span>
+                    </button>
+            </div>
+            <div class="flex justify-center gap-x-4 pb-6">
+                <div>
+                    <ul><li><img src="./images/image7.png" alt=""></li></ul>
+                    <p class="text-xs pt-2 text-gray-500 ">Sales</p>
+                    <p class="text-xl text-black">Demo Follow Up</p>
+                </div>
+                <div>
+                    <ul><li><img src="./images/google4.png" alt=""></li></ul>
+                    <p class="text-xs pt-2 text-gray-500 ">Sales</p>
+                    <p class="text-xl text-black">Enterprise Sales</p>
+                </div>
+                <div>
+                    <ul><li><img src="./images/three.png" alt=""></li></ul>
+                    <p class="text-xs pt-2 text-gray-500 ">Agency</p>
+                    <p class="text-xl text-black">Design Proposal</p>
+                </div>
+            </div>
+            <div class="flex justify-center gap-x-4 pb-14">
+                <div>
+                    <ul><li><img src="./images/image6.png" alt=""></li></ul>
+                    <p class="text-xs pt-2 text-gray-500 ">Agency</p>
+                    <p class="text-xl text-black">Website Proposal</p>
+                </div>
+                <div>
+                    <ul><li><img src="./images/image4.png" alt=""></li></ul>
+                    <p class="text-xs pt-2 text-gray-500 ">Agency</p>
+                    <p class="text-xl text-black">Brand Design Project</p>
+                </div>
+                <div>
+                    <ul><li><img src="./images/google1.png" alt=""></li></ul>
+                    <p class="text-xs pt-2 text-gray-500 ">Customer Success</p>
+                    <p class="text-xl text-black">Implementation Plan</p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-blue-900 rounded-b-2xl rounded-t-2xl">
+            <p class="flex justify-center text-4xl text-white pt-32 pb-3.5">Get started with Dock</p>
+            <div class="flex justify-center pb-32">
+                <button type="button" class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Get Started</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="pt-20 pb-16 flex justify-center gap-30">
+            <div>
+                <div>
+                    <ul><li><img src="./images/image5.png" alt=""></li></ul>
+                </div>
+                <p class="pt-2 text-xl text-gray-500">Copyright © 2021 Dock Labs, Inc. <br>All rights reserved.</p>
+            </div>
+            <div>
+                <p class="text-xl text-black ">Legal</p>
+                <p class="text-xl text-black pt-2 pb-3">Terms of Service</p>
+                <p class="text-xl text-black pb-3">Privacy Policy</p>
+                <p class="text-xl text-black">Privacy Request</p>
+            </div>
+            <div>
+                <p class="text-xl text-black ">Support</p>
+                <p class="text-xl text-black pt-2 pb-3">Help Center</p>
+                <p class="text-xl text-black">support@dock.us</p>
+            </div>
+            <div>
+                <p class="text-xl text-black ">General</p>
+                <p class="text-xl text-black pt-2 pb-3">Request Invite</p>
+                <p class="text-xl text-black">Twitter</p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
